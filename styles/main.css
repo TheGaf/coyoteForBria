@@ -339,6 +339,92 @@ main {
     min-height: calc(100vh - var(--header-height) - 200px);
 }
 
+/* Hero Section (Home Page) */
+.hero-section {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--color-background-dark);
+    color: var(--color-secondary);
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text-line {
+    display: block;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-top: var(--spacing-lg);
+}
+
+.hero-content strong {
+    color: var(--color-accent);
+}
+
+/* Services Section (Home Page) */
+.services-section {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.section-intro {
+    text-align: center;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text-light);
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto var(--spacing-lg);
+    max-width: 800px;
+    text-align: center;
+}
+
+.services-list li {
+    margin-bottom: var(--spacing-md);
+}
+
+.services-list h3 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin-bottom: var(--spacing-sm);
+    text-align: center;
+}
+
+.services-cta {
+    text-align: center;
+    margin-top: var(--spacing-lg);
+}
+
+/* Footer Links Navigation */
+.footer-links {
+    margin-top: var(--spacing-md);
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    font-weight: 500;
+}
+
 /* About Section */
 .about-section {
     padding: var(--spacing-xl) 0;
