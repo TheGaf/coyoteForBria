@@ -425,6 +425,66 @@ main {
     font-weight: 500;
 }
 
+/* Services Intro Section */
+.services-intro-section {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--color-background-dark);
+    color: var(--color-secondary);
+}
+
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+
+/* Services Detail Section */
+.services-detail-section {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--color-secondary);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.service-card {
+    padding: var(--spacing-md);
+    background-color: var(--color-background);
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.service-card:hover,
+.service-card:focus-within {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    margin-bottom: var(--spacing-sm);
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.service-card p {
+    line-height: 1.6;
+    color: var(--color-text);
+}
+
+.services-note {
+    text-align: center;
+    font-style: italic;
+    color: var(--color-text-light);
+    margin-top: var(--spacing-md);
+}
+
 /* About Section */
 .about-section {
     padding: var(--spacing-xl) 0;
